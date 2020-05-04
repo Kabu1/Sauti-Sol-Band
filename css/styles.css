@@ -1,5 +1,5 @@
 h1 {
-  color: blue;
+  color: green;
 }
 h2 {
   color: green;
@@ -8,17 +8,19 @@ body {
   background-color: lightgrey;
   font-family: sans-serif;
 }
-.Sidebar {
-  float: right;
-  width: 20%;
-}
 .about {
   float: left;
   width: 80%;
 }
+
+.Sidebar {
+  float: right;
+  width: 20%;
+}
+
 .Sidebar img {
-  width: 15em;
-  height: 300px;
   border-radius: 10px;
-  box-shadow: 0.3em 0.3em 0.2em green;
+  box-shadow: 0.4em 0.2em 0.4em green;
+  height: 300px;
+  width: 15em;
 }
